@@ -12,11 +12,6 @@
     "refresh": "gulp refresh",
     "prod": "NODE_ENV=production gulp refresh"
   },
-  "sideEffects": [
-    "*.scss",
-    "*.css",
-    "app.js"
-  ],
   "repository": "https://github.com/pprzezwanski/gulpfile",
   "author": "Pawel Przezwanski pprzezwanski@gmail.com",
   "license": "MIT",
