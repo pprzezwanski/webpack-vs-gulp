@@ -49,7 +49,7 @@ No 'ctr + c' workflow. No need to restart gulp even after git pull and solve con
 
 
 
-### Build Tools Features
+### Gulp Features
 
 * gulp4 with webpack4 or broserify as js bundler and all plugins - everything up to date in january 2019
 
@@ -75,4 +75,8 @@ No 'ctr + c' workflow. No need to restart gulp even after git pull and solve con
 
 * Ability to choose if initializing gulp opens the browser automatically or not
 
+<<<<<<< HEAD
 * Information about chosen config highlights is logged to console when tasks starts 
+=======
+* Information about chosen config highlights is logged to console when tasks starts 
+>>>>>>> bf70a28fc684b6e6f6c54411ed664a947e841846
