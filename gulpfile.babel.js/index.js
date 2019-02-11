@@ -40,6 +40,7 @@ import { build } from './build';
 import { watchFiles } from './watch';
 import { exit } from './exit';
 import { clean } from './clean';
+import { unusedCss } from './checkCss';
 import { preview, reload, stream } from './browserSync';
 
 // log config highlights at the beginning of a task
@@ -74,3 +75,4 @@ exports.build = build;
 exports.live = live;
 exports.preview = preview;
 exports.stylelint = stylelint;
+exports.unusedCss = unusedCss;
