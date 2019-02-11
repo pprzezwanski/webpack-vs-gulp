@@ -27,7 +27,8 @@ const jsWebpacked = () => {
     initialBuild = false; 
 
     return middleStream
-        .pipe(gulpif(config.webpacked, webpackstream(config.webpack, webpack)))
+        .pipe(webpackstream(config.webpack, webpack))
+        .pipe(babel({ presets: ['@babel/env'] }))
         .pipe(rename('temp.js'))
         .pipe(dest(config.paths.js.temp/* , { sourcemaps: '.'} */));
 };

@@ -5,11 +5,10 @@
   "main": "app.js",
   "scripts": {
     "start": "webpack-dev-server --config=webpack.js",
-    "webpack:dev": "webpack --mode development",
+    "webpack:dev": "webpack-dev-server --config=webpack.js",
     "webpack:prod": "NODE_ENV=production webpack --config=webpack.js",
     "gulp": "while true; do gulp; done;",
-    "build": "gulp build",
-    "refresh": "gulp refresh",
+    "build": "NODE_ENV=production gulp refresh",
     "prod": "NODE_ENV=production gulp refresh"
   },
   "repository": "https://github.com/pprzezwanski/gulpfile",
